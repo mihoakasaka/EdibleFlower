@@ -1,0 +1,713 @@
+@charset "utf-8";
+/*Base CSS Document */
+/*CSS Document for Desktop Devices*/
+/*Organic Flowers Garden WebSite */
+
+/*Group project : Website Design 420-PY3-AB Summer 2016
+  Instructor: Dr. Khattar Daou, M.S., Ph.D. Technical Sciences
+   Internet Programming and Development IPD8
+   
+   Designed and presented by:
+   Miho Akasaka;
+   Nathalie Desrosiers;
+   Valentina Migalatti; and
+   Leanne Seary
+   
+   Date: June 4, 2016 */
+ /** {
+	   border:1px solid red;
+	   
+   }*/
+
+#registerLogin li {
+	display: inline;
+	padding-right: 10px;
+	vertical-align: central;
+}
+body {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	background-color: rgba(225,236,237,1.0);
+	margin: 0px;
+	bottom: 0px;
+}
+#header {
+	width: 100%;
+	margin: auto;
+	height: 20%;
+}
+.logo {
+	width: 80%;
+	margin-left: 25px;
+	float: left;
+}
+#header_a ul {
+	background-color: none;
+	list-style-type: none;
+	display: block;
+	text-align: right;
+	color: #4F9794;
+	margin-right: 30px;
+	margin-top: 0px;
+}
+#registerLogin {
+	padding-top: 15px;
+}
+#registerLogin a {
+	text-decoration: none;
+	text-align: right;
+	color: #4F9794;
+	font-style: normal;
+	font-weight: bold;
+}
+#navHeader {
+	clear: both;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+ //background-color: #f9ffe5;
+}
+#navHeader ul {
+	clear: both;
+	width: 90%;
+	margin: auto;
+	list-style-type: none;
+}
+#navHeader ul li {
+	display: inline-block;
+	margin: 0 10px 10px;
+}
+.navbar-default {
+	background-color: #fff;
+}
+#navHeader ul li a {
+	display: block;
+	width: 120px;
+	padding: 6px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: rgb(79,151,148);
+	border-radius: 18px;
+	box-shadow: 2px 2px 3px #999;
+	
+}
+#navHeader a:hover {
+    color:#000;  
+    transform:translate(0px,10px);
+	box-shadow: 0px -5px 3px #999;
+}
+
+#homePageArticle {
+	background-color: rgba(225,236,237,1.0);
+	margin: 20px;
+	padding: 20px;
+	font-size: 20px;
+	text-align: justify;
+	border: thin solid #4F9794;
+	border-radius: 20px;
+	box-shadow: 3px 5px 5px 2px #BEBEBE;
+	
+}
+
+/* Products styles */
+#ourProducts h2 {
+	align: center;
+	background-color: none;
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	text-shadow: 2px 2px #BEBEBE;
+	color: #4F9794;
+	margin: 20px auto 10px auto;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+#productTable {
+	width: 940px;
+	margin: 10px;
+	border: thin solid #4f9794;
+}
+#productTable th {
+	width: 940px;
+	text-size: 16px;
+	font-weight: bold;
+	border: thin solid #4f9794;
+}
+#productTable td {
+	text-align: center;
+	padding: 5px;
+	margin: 10px;
+	border: thin solid #4f9794;
+}
+#shoppingCart input {
+	text-align: center;
+}
+#shoppingCart tfoot th {
+	text-align: right;
+	padding-right: 20px;
+}
+#shoppingCart {
+	width: 900px;
+	margin: auto;
+	border: thin solid #4f9794;
+	text-align: right;
+	padding-bottom: 10px;
+}
+#shoppingList th td {
+	align: center;
+	padding-bottom: 10px;
+}
+.flowername {
+	font-size: 18px;
+	font-weight: bold;
+}
+#wrapper {
+	background-color: #fff;
+	width: 90%;
+	margin: 0 auto auto auto;
+	padding: 0 0 10px 0;
+}
+#footer {
+	width: 100%;
+	background-color: #4F9794;
+	color: white;
+	font-size: 12px;
+	margin-top: 20px;
+	padding-top: 10px;
+	height: 100px;
+	position:relative;
+	bottom:-10px;
+	text-align: center;
+}
+#footer a {
+	font-size: 18px;
+	color: white;
+}
+#footer a:hover, a:active, a:focus {
+	color: blue;
+	
+}
+#chamomile {
+ //background-image: url(../images/flowersDesktop/chamomileD.png);
+	background-image: linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.1)), url(../images/flowersDesktop/chamomileD.png);
+ //opacity:0.5;
+	filter: alpha(opacity=40);
+	background-repeat: no-repeat;
+	width: auto;
+	padding: 20px;
+	text-align: justify;
+	background-size: contain;
+	background-attachment: fixed;
+ //opacity: 0.5;
+}
+#elderflower {
+	background-image: url(../images/flowersDesktop/elderflowerD.png);
+	background-repeat: no-repeat;
+	width: auto;
+	padding: 20px;
+	text-align: justify;
+	background-size: contain;
+	background-attachment: fixed;
+}
+#eveningPrimrose {
+	background-image: url(../images/flowersDesktop/eveningPrimroseD.png);
+	background-repeat: no-repeat;
+	width: auto;
+	padding: 20px;
+	text-align: justify;
+	background-size: contain;
+	background-attachment: fixed;
+}
+#hibiscus {
+	background-image: url(../images/flowersDesktop/hibiscusD.png);
+	background-repeat: no-repeat;
+	width: auto;
+	padding: 20px;
+	text-align: justify;
+	background-size: contain;
+	background-attachment: fixed;
+}
+#lavender {
+	background-image: url(../images/flowersDesktop/lavenderD.png);
+	background-repeat: no-repeat;
+	width: auto;
+	padding: 20px;
+	text-align: justify;
+	background-size: contain;
+	background-attachment: fixed;
+}
+#marigold {
+	background-image: url(../images/flowersDesktop/marigoldD.png);
+	background-repeat: no-repeat;
+	width: auto;
+	padding: 20px;
+	text-align: justify;
+	background-size: contain;
+	background-attachment: fixed;
+}
+#nasturtium {
+	background-image: url(../images/flowersDesktop/nasturtiumD.png);
+	background-repeat: no-repeat;
+	width: auto;
+	padding: 20px;
+	text-align: justify;
+	background-size: contain;
+	background-attachment: fixed;
+}
+#rosehip {
+ //background-image:url(../images/flowersDesktop/roseD.png);
+	background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.1)), url(../images/flowersDesktop/roseD.png);
+ //opacity:0.5;
+	filter: alpha(opacity=40);
+	background-repeat: no-repeat;
+	width: auto;
+	padding: 20px;
+	text-align: justify;
+	background-size: contain;
+	background-attachment: fixed;
+}
+.article img {
+	width: 100%;
+	
+}
+
+.horLine {
+		text-align:center;
+		width: 90%;
+		margin:auto;
+	}
+	.horLine img {
+		width: 50%;
+		margin: auto;
+	}
+	.horLine p {
+		font-size: 16px;
+	}
+.pageHeading {
+	text-align: center;
+	background-color: none;
+	font-size: 28px;
+	font-weight: bold;
+	text-shadow: 2px 2px #BEBEBE;
+	color: #4F9794;
+	margin: 20px auto 10px auto;
+}
+.flowerWrapper {
+	width: 90%;
+	background-color: rgba(0,0,0, 0.6);
+	margin: 20px auto;
+	color: white;
+	padding: 15px;
+	border-radius: 15px; 
+}
+#signUp {
+	font-size: 18px;
+}
+#signUp a {
+	font-size: 20px;
+}
+/*   */
+.hoverClass {
+	transition: all 1s ease-in-out;
+}
+.hoverClass:hover {
+	transform: scale(1.02);
+}
+.article {
+	margin-bottom: 20px;
+}
+////////////////////////////////////
+/* Style the blogue page*/
+	#accordion1 {
+		width: 90%;	
+	}
+	.panel-group, #topicForum, #introduction {
+		width: 80%;
+		margin: auto;
+		margin-top: 20px;
+	}
+	
+	.panel-heading {
+		min-height: 6em;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+
+.leftSidePanel, .rightSidePanel {
+	height: inherit; 
+	float: left;
+}
+#topicForum img {	
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.rightSidePanel span, .leftSidePanel span {
+	
+	font-size:12px;
+	color: grey;
+	font-style: italic;
+}
+.panel, .panel-collapse {
+	clear: both;	
+}
+.leftSidePanel span {
+	padding: 0;
+	margin: 0;
+	padding-left: 25px;
+	
+}
+.leftSidePanel h4 {
+	border-bottom: 1px solid grey;
+}
+.hot {
+	display: inline-block;
+	width: 30px;
+	border: 1px solid grey;
+	background-color: orange;
+	float: right;
+	font-size:10px;
+	text-align: center;
+}
+.panel-title a {
+	text-decoration: none;
+}
+.panel-title a:hover{
+	text-decoration: none;
+	color: grey;
+}
+
+#topicForum input{
+	width: 100%;
+	float:left;
+	
+}
+#topicForum div {
+	padding: 10px 0;
+	padding-right: 10px;
+	
+}
+.panel-body img{
+	border: 1px solid silver;
+}
+.panel-body .row .col-md-2:first-child {
+	margin:5px;	
+	border-right: 1px solid grey;	
+}
+
+.smallText {
+	font-style: italic;
+	font-size: 8px;
+}
+#errorTopicText {
+	color: #821D1E;
+}
+#centered {
+	position:fixed;
+    top: 50%;
+    left: 50%;
+    width:30em;
+    height:18em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: rgba(19,124,100,0.9);
+}
+#formReply {
+	width: 75%;
+	margin: auto;
+	margin-top: 4em;
+	vertical-align:middle;
+}
+blockquote {
+	font-size: 10px;
+	font-style: italic;
+	color: #898989;
+}
+
+#errorReplyText, #errorTopicText {
+	font-size: 8px;
+	color: rgba(156,51,53,1.00);
+	margin:0;
+	padding:0;
+	padding-left:5px;
+	
+}
+.panel-group a:visited, .panel-group a:active, .panel-group a:black {
+	color: black;
+}
+
+/* Styling the Contact Us*/
+
+.articleContact {
+	width: 80%;
+	margin: auto;
+	background-color: rgba(77,205,195, 0.6);
+	font-size: 20px;
+	text-align: justify;
+	border: thin solid #4F9794;
+	border-radius: 20px;
+	box-shadow: 3px 5px 5px 2px #BEBEBE;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	
+}
+#googleMap {	
+	height: 250px;
+	margin: 30px;	
+	
+}
+.righSide {
+	background-color: white;
+	border-radius: 0 20px 20px 0;
+}
+.leftSide {
+	padding: 20px 20px 0 20px;
+}
+/* Styling the register and login pages*/
+.registrationForm {
+	width: 100%;
+	margin:auto;
+	background-color: rgba(77,205,195, 0.6);
+	padding: 15px;
+	font-size: 20px;
+	text-align: justify;
+	border: thin solid #4F9794;
+	border-radius: 20px;
+	box-shadow: 3px 5px 5px 2px #BEBEBE;
+	margin-bottom: 30px;
+}
+
+.registrationForm input {
+	padding-left: 20px;	
+}
+.formContainer {
+	width: 70%;
+	margin: auto;	
+}
+.registrationError{
+	margin:0;
+	padding: 0;	
+	font-size: 10px;
+	color: rgba(180,95,97,1.00);
+	text-align: right;
+	padding-right: 15px;
+}
+.registrationForm .form-group {
+	width: 70%;
+	margin: auto;
+}
+#registrationFormSubmit, #loginFormSubmit {
+	text-align:center;
+	width: 15em;
+	margin: auto;
+	margin-left: 25%;	
+}
+/* Styling organic.html*/
+.organicSection {	
+	margin: 20px auto 20px auto;
+	background-color: rgba(225,236,237,1.0);
+	font-size: 20px;
+	text-align: justify;
+	border: thin solid #4F9794;
+	border-radius: 20px;
+	box-shadow: 3px 5px 5px 2px #BEBEBE;
+	
+}
+.organicSection div{
+	padding-left: 50px;
+	margin:0;	
+}
+.organicSection p, .organicSection h3{
+	padding:0;
+	margin:0;
+	text-align: justify;
+}
+.organic {
+	width: 90%;
+	margin: auto;	
+}
+
+.organicSection .img-responsive {
+	border-radius: 0 10px 10px 0;
+	width:250px;
+	height:250px;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+.numbers {
+	position:relative;
+	top:-20px;
+	left: -65px;
+}
+.col-sm-8 img {
+	width:40px;
+	height: 40px;
+}
+/* Recipes Styling*/
+.glyphicon {
+	height: 60px;
+	width: 60px;
+	color: pink;
+	border-radius: 50%;
+	background-color: black;
+}
+#myCarousel {
+	max-height: 650px !important;
+	width: 90%;
+	padding: 15px;
+	border: 1px solid grey;
+	margin: auto;
+	float: none;
+	margin-bottom: 15px;
+	background-color: white;
+}
+#recipeContainerRow {
+	max-height: 650px !important;
+	width: 90%;
+	margin: auto;
+	padding: 15px;
+	border: 1px solid grey;
+	background-color: rgba(225,236,237,1.0);
+}
+.item {
+	max-height: 650px !important;
+}
+.carousel-control {
+	top: 50%;
+	width: auto;
+	height: 1em;
+	background: transparent;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
+	position: static;
+	display: block;
+	width: auto;
+}
+.carousel-control .glyphicon-chevron-left:before {
+	margin-left: 0;
+}
+.carousel-inner > .item > img,  .carousel-inner > .item > a > img {
+	width: 90%;
+	height: 90%;
+	margin: auto;
+}
+.carousel-caption { 
+	position: absolute;
+	bottom: 5%;
+	color:  #884dff;
+}
+.recipe{
+width:95%;
+margin:auto;
+}
+
+.recipe h1{
+	text-align:center;
+}
+
+.recipe #roseyLine{
+	display:block;
+	margin:auto;
+}
+
+
+ .recipe ul li{
+	list-style-type: none;
+}
+mark{
+	text-decoration:underline;
+	background-color:white;
+}
+.transparency{
+	width: 90%;
+	margin: 20px auto;	
+	padding: 15px;	
+	
+	background-color:rgba(0,0,0, 0.7);
+	color:white;
+	opacity:0.75;
+	border-radius: 15px;
+}
+
+#chamomile {
+	background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.1)),url(../images/flowersDesktop/chamomileD.png);
+	
+}
+#elderflower {
+	background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.1)), url(../images/flowersDesktop/elderflowerD.png);
+}
+#eveningPrimrose {
+	background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.1)), url(../images/flowersDesktop/eveningPrimroseD.png);
+}
+#hibiscus {
+	background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.1)),url(../images/flowersDesktop/hibiscusD.png);
+}
+#lavender {
+	background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.1)),url(../images/flowersDesktop/lavenderD.png);
+}
+#marigold {
+	background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.1)),url(../images/flowersDesktop/marigoldD.png);
+}
+#nasturtium {
+	background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.1)),url(../images/flowersDesktop/nasturtiumD.png);
+}
+#rosehip {
+background-image:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.1)),url(../images/flowersDesktop/roseD.png);
+}
+/* Style the products page */
+#productTable, #shoppingCart {
+			width: 90%;
+			margin:auto;
+			background-color: rgba(225,236,237,1.0);
+			margin-bottom: 20px;
+		}
+		#productTable caption {
+			
+		}
+#productTable th, #shoppingCart th {
+    text-align: center;
+}
+#shoppingCart td{
+    text-align: center;
+}
+tfoot th{
+    text-align: center;
+}
+#productTable h3{
+    margin: 0;
+}
+#productTable td p{
+    margin: 0;
+
+}
+#productTable img {
+	transition: all 1s ease-in-out;
+}
+#productTable img:hover { transform: scale(1.1); }
+#productTable input{
+    width: 40px;
+}
+
+#buttonRow {
+	width: 90%;
+	margin: auto;
+}
+#buyB, #clear, #checkOut, #submitB {
+	width: 20vw;
+	margin: auto;
+	
+}
+#buyB:hover, #clear:hover, #checkOut:hover {
+	background-color: rgb(200,200,200);
+	
+	
+}
+#buyB {
+	position:relative;
+	left:40%;
+}

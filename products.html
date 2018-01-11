@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<!--Organic Flowers Garden WebSite 
+
+Group project : Website Design 420-PY3-AB Summer 2016
+Instructor: Dr. Khattar Daou, M.S., Ph.D. Technical Sciences
+Internet Programming and Development IPD8
+   
+Designed and presented by:
+Miho Akasaka;
+Nathalie Desrosiers;
+Valentina Migalatti; and
+Leanne Seary
+
+Date: June 4, 2016 -->
+
+<html lang="en">
+    <head>
+        <title>Products</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Edible Flowers Garden offers a variety of suculent, organic, very tasty flowers, ready to be shipped to your house">
+		<link href="styles/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="styles/base.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+		
+</style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header id="header">
+    <div class="logo"><img src="images/logo/OFGlogoBanner.png" alt="Edible FLowers Garden Logo" class="img-responsive"></div>
+    <div id="header_a">
+      <ul id="registerLogin">
+        <li><a href="register.html" id="registerLink">Register</a></li>
+        <li><a href="login.html" id="loginLink">Login</a></li>
+        <li><a href="#" id="signOutLink">Sign Out</a></li>
+      </ul>
+    </div>
+  </header>
+  <nav id="navHeader"  class="navbar navbar-default" 	>
+    <ul class="dropdown-toggle">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="organic.html">Why Organic ?</a></li>
+      <li><a href="recipes.html">Recipes</a></li>
+      <li><a href="forum.html">Forum</a></li>
+      <li><a href="checkout.html">Check-out</a></li>
+    </ul>
+  </nav>
+  <ol class="breadcrumb">
+    <li><a href="index.html">Home</a></li>
+    <li class="active">Products</li>
+  </ol>
+
+            <article id="ourProducts">
+                <h2>Our Succulent Products</h2>
+
+                <table id="productTable" class="row">        
+                    <tr>
+                        <th><strong><span style="font-size: 18px;">Product Name</span></strong><br></th>                    
+                        <th><strong style="font-size: 18px">Description</strong></th>      
+                        <th><strong style="font-size: 18px">Buy</strong></th>  
+
+                    </tr>
+                   <tr>
+                        <td>
+                        
+                     <a href="flowers/chamomile.html"><img src="images/flowers/chamomile.png" alt="Chamomile thumbnail" width="150" height="88"></a></td> 
+                        <td><h3>Camomile -$25.00/lb</h3> 
+                        <p>Camomile has been used for centuries in teas as a mild, relaxing sleep aid, 
+                                treatment for fevers, colds, stomach ... <br>
+                                <a href="flowers/chamomile.html">--more info</a></p></td>
+                        <td><input onChange="calcSubtotal('camomile');" type="number" min="0" name="camomileQty" id="camomileQty" value="0">lb <span id="camomileTotal" >&nbsp;</span><br></td>
+                    </tr>
+ <tr>
+                        <td><a href="flowers/elderflower.html"><img src="images/flowers/elderflower.png" width="150" height="88" alt="Elderflower thumbnail"/></a></td>
+                        <td>
+                        <h3>Elderberry - $35.50/lb</h3>
+                        <p>Elderberry flower has been used in traditional medicine all over the world in many different cultures.<br>
+                                <a href="flowers/elderflower.html">--more info</a></p></td>
+                                <td><input onChange="calcSubtotal('elderberry');" type="number" min="0" name="elderberry'Qty" id="elderberryQty" value="0">lb <span id="elderberryTotal">&nbsp;</span><br></td>
+                      
+                    </tr>
+                    <tr>
+                        <td><a href="flowers/hibiscus.html"><img src="images/flowers/hibiscus.png" width="150" height="88" alt="Hibiscus thumbnail"/></a></td>                     
+                        <td><h3>Hibiscus-$39.50/lb</h3>
+                             <p>Hibiscus is rich in vitamin C and very nourishing for the skin, 
+                                which is why it has been used for centuries as a natural beauty product.<br>
+                                <a href="flowers/hibiscus.html">--more info</a></p></td>
+                                <td><input onChange="calcSubtotal('hibiscus');" type="number" min="0" name="hibiscusQty" id="hibiscusQty" value="0">lb <span id="hibiscusTotal">&nbsp;</span><br></td>
+                        
+                    </tr>
+                    <tr>
+                        <td><a href="flowers/lavender.html"><img src="images/flowers/lavender.png" width="150" height="88" alt="Lavender thumbnail"/></a></td>
+                        <td><h3>Lavender - $48.00/lb</h3><p>Lavender flowers can be crushed and steeped in hot water to create a tea that can be ingested.<br>
+                                <a href="flowers/lavender.html">--more info</a></p></td>
+                                <td><input onChange="calcSubtotal('lavender');" type="number" min="0" name="camomileQty" id="lavenderQty" value="0">lb <span id="lavenderTotal">&nbsp;</span><br></td>
+                     
+                    </tr>
+                    <tr>
+                        <td><a href="flowers/marigold.html"><img src="images/flowers/marigold.png" width="150" height="88" alt="Marigold thumbnail"/></a></td>
+                        <td><h3>Marigold - $36.75/lb</h3><p>It has been used to treat a variety of skin diseases and has been seen effective in treatment 
+                                of skin ulcerations, eczema, juvenile acne and dry psoriasis.<br>
+                                <a href="flowers/marigold.html">--more info</a></p></td>
+                                <td><input onChange="calcSubtotal('marigold');" type="number" min="0" name="marigoldQty" id="marigoldQty" value="0">lb <span id="marigoldTotal">&nbsp;</span><br></td>
+                    
+                    </tr>
+                    <tr>
+                        <td><a href="flowers/nasturtium.html"><img src="images/flowers/nasturtium.png" width="150" height="88" alt="Nasturtium thumbnail"/></a></td>
+                        <td><h3>Nasturtium -$55.75/lb</h3><p>Nasturtium is a good source of lutein and beta-carotene, two important components in preventing UV-damage and maintaining skin health.<br>
+                                <a href="flowers/nasturtium.html">--more info</a></p></td>
+                         <td><input onChange="calcSubtotal('nasturtium');" type="number" min="0" name="nasturtiumQty" id="nasturtiumQty" value="0">lb <span id="nasturtiumTotal">&nbsp;</span><br></td>
+                    </tr>
+                    <tr>
+                        <td><a href="flowers/eveningPrimrose.html"><img src="images/flowers/eveningPrimrose.png" width="150" height="88" alt="Evening Primrose thumbnail"/></a></td>
+                          <td><h3>Primrose $47.50/lb</h3><p>Evening primrose contains a high concentration of a fatty acid called GLA.<br>
+                                <a href="flowers/eveningPrimrose.html">--more info</a></p></td>
+                       <td><input onChange="calcSubtotal('primrose');" type="number" min="0" name="primroseQty" id="primroseQty" value="0">lb <span id="primroseTotal">&nbsp;</span><br></td>
+
+                    </tr>
+                    <tr>
+                        <td><a href="flowers/rosehip.html"><img src="images/flowers/rose.png" width="150" height="88" alt="Rosehip thumbnail"/></a></td>
+                        <td><h3>Rose -$49.75/lb</h3><p>Because they contain a variety of antioxidants; carotenoids, flavonoids, polyphenols, leucoanthocyanins and catechins, rose hips are considered to be a good cancer preventative.<br>
+                                <a href="flowers/rosehip.html">--more info</a></p></td>
+                          <td><input onChange="calcSubtotal('rose');" type="number" min="0" name="roseQty" id="roseQty" value="0">lb <span id="roseTotal">&nbsp;</span><br></td>
+                    </tr>
+                </table>
+                <div class="row" id="buttonRow">
+                <button id="buyB" onclick="readOrder();">Buy</button>
+                </div>
+
+                <table id="shoppingCart" class="row">    
+                    <caption style="font-size: 18px; font-weight: bold;">
+                        Your Shopping Cart
+                    </caption>
+                    <thead>  
+                        <tr>
+                            <th >Product</th>
+                            <th>Price</th>
+                            <th >Quantity</th>
+                            <th>Amount</th>
+                    
+                    </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th colspan="3">Subtotal</th>
+                            <td ><span id="subtotal"></span></td>
+                        </tr>
+                        <tr>
+                            <th colspan="3">Tax</th>
+                            <td><span id="tax"></span></td>
+                        </tr>
+                        <tr>
+                            <th colspan="3">Shipping</th>
+                            <td ><span id="shipping"></span></td>
+                        </tr>
+                        <tr>
+                            <th colspan="3">Total</th>
+                            <td><span id="total"></span></td>
+                        </tr>
+                        <tr>
+                           
+                            <td></td>
+                            <td></td>
+                            <td><button id="clear" onclick="clearCart();">Clear cart</button></td>
+                            <td><button id="checkOut">Check-out</button></td>
+                        </tr>
+                    </tfoot>
+                    <tbody id="shoppingList">
+                    </tbody>
+
+                </table>
+            </article>
+             <div class="horLine row">
+    <p><img src="images/line.png" alt="Horizontal Line" class="img-responsive"/></p>
+  </div>
+         <footer id="footer">
+    <div id="footerWrapper"><a href="contactUS.html">Contact Us</a>&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; <a href="aboutUS.html"> About Us</a> </div>
+    <p>&copy; 2016 Organic Flowers Garden Inc.</p>
+    <p>Last Updated: <!-- #BeginDate format:Am1 -->June 8, 2016<!-- #EndDate --> 
+    </p>
+  </footer>
+
+        </div> 
+        <script type="text/javascript" src="Libraries/jquery-2.2.4.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/registration.js"></script>
+       	<script type="text/javascript" src="js/order.js"></script>
+
+    </body>
+</html>
+

@@ -1,0 +1,96 @@
+@charset "utf-8";
+/*CSS Document for Mobile Devices*/
+/*Organic Flowers Garden WebSite */
+
+/*Group project : Website Design 420-PY3-AB Summer 2016
+  Instructor: Dr. Khattar Daou, M.S., Ph.D. Technical Sciences
+	Internet Programming and Development IPD8
+	
+	Designed and presented by:
+	Miho Akasaka;
+	Nathalie Desrosiers;
+	Valentina Migalatti; and
+	Leanne Seary
+	
+	Date: June 4, 2016 */
+h3 {
+	font-size: 18px;
+}
+.pageHeading {
+	font-size: 20px;
+}
+.breadcrumb {
+	font-size: 12px;
+}
+.horLine p {
+	font-size: 14px;
+}
+#footer a {
+	font-size: 14px;
+}
+#footer p {
+	font-size: 12px;
+}
+#header a {
+	font-size: 12px;
+	position: relative;
+	bottom: -10px;
+	right: -15px;
+}
+.horLine img {
+	display:none;	
+}
+
+/*Styling the recipes page*/
+#myCarousel img {
+	width: 300px;
+	height:120px;
+	
+}
+.glyphicon {
+	height: 5px;
+	width: 5px;
+	background-color: transparent;
+}
+#myCarousel {
+	padding: 5px;	
+	margin-bottom: 5px;
+}
+
+.carousel-control {
+	height: 0.5em;
+	
+}
+.carousel-indicators {
+	display:none;
+}
+.carousel-caption {
+	text-align:center;
+	
+}
+.carousel-caption h3{
+	font-size: 12px;
+	position:relative;
+	top:-50px;
+	color:pink;
+}
+/* Styling the Contact Us*/
+
+.articleContact {
+	font-size: 14px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+#googleMap {
+	width: 100%;
+	//height: 250px;
+	//margin: 30px;	
+	padding:0;
+	margin:0;
+}
+.righSide {
+	border-radius: 0 0 10px 10px;
+}
+/* Styling the register and login pages*/

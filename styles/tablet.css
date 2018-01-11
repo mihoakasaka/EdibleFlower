@@ -1,0 +1,36 @@
+@charset "utf-8";
+/*CSS Document for Tablet Devices*/
+/*Organic Flowers Garden WebSite */
+
+/*Group project : Website Design 420-PY3-AB Summer 2016
+  Instructor: Dr. Khattar Daou, M.S., Ph.D. Technical Sciences
+	Internet Programming and Development IPD8
+	
+	Designed and presented by:
+	Miho Akasaka;
+	Nathalie Desrosiers;
+	Valentina Migalatti; and
+	Leanne Seary
+	
+	Date: June 4, 2016 */
+	
+	
+#myCarousel img {
+	width: 700px;
+	height:400px;	
+}
+
+.glyphicon {
+	height: 20px;
+	width: 20px;
+}
+#myCarousel {
+	padding: 5px;	
+	margin-bottom: 10px;
+}
+
+.carousel-control {
+	height: 0.5em;	
+}
+
+/********styles for checkout page***********************/
